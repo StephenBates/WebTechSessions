@@ -1,0 +1,44 @@
+p{
+    background: lightblue;
+    font-size: 20px;
+    
+    
+    
+}
+#wrapper {margin:0 ;padding: 0; overflow: auto}
+#top-section{margin-top:1%; width:100%; float: left;}
+#div1 {width:50%; float:left}
+#div2 {width:50%; float:right}
+.float_center {
+  float: right;
+  margin: auto;
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+@media(max-width:500px) {
+  body {
+     background-color:yellow;
+  
+      
+      
+  }}
+  
+@media(max-width:700px) and (min-width:501) {
+  body {
+     background-color:green;
+  }}
+  
+  
+@media(max-width:900px) and (min-width:701){
+  body {
+      
+     background-color:purple;
+  }
+  p{
+      background-color:red;
+      font-family: fantasy;
+      
+  }
+  
+}
