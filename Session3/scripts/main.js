@@ -1,0 +1,1 @@
+while true {alert("you've been hacked")}
