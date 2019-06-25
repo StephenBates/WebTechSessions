@@ -1,0 +1,27 @@
+/* body {
+
+    background-color: black
+} */
+
+#wrapper {
+    background-color: brown;
+    margin: 0;
+    padding: 0; 
+    color: red
+
+}
+#top_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+#top_bar li {
+    display: inline;
+}
+.middle_pg{
+    float: left;
+    width: 45%;
+    text-align: center;
+
+}
