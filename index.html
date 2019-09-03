@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Work Apps</title>
+	<link rel="stylesheet" href="work_tools.css">
+</head>
+<body>
+<div id="divide">
+<h1>Work Tools</h1>
+</div>
+	<div id="titleImage">
+<div id="mainHeader">
+</div>
+</div>
+	<script src="work_hours.js"></script>
+	<div id="workHours">
+	  <div class="heading">
+	    <h1>Work Hours Calculator</h1>
+	  </div>
+	<p id="first">If you have just arrived, just enter the break length.</p>
+	<p id="second">If you wish to manually enter arrival time, then complete all of the boxes.</p>
+    <p id="third">Pressing the Arrival Time button below, will show you the time that your finish time will be based off of.</p>
+    <P id="fourth">This calculator assumes a 7.5 hour work day</P>
+	<button class="button" onclick="get_time()" >Arrival Time</button><br>
+	<p id="output" class="arrivalText"></p>
+	<p class="arrivalText">Manually enter arrival time:</p>  
+	<input id="input_hour" class="minuteHourInput" type="text" placeholder="Hour..." />
+	<input id="input_minutes" class="minuteHourInput" type="text" placeholder="Minutes..." /><br>
+	
+	<p class="text">Length of break (in minutes): </p>
+	<input id="input_break" class="input" type="text" placeholder="Enter break..." /> 
+	
+	<p id="finish time" class="someText"></p>
+	<button class="button" onclick="finish_time()">Finish Time</button>
+	
+	</div>
+	<script src="to_do_list.js"></script>
+	
+	<div id="myDIV" class="header">
+	  <h2>To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <button onclick="newElement()" class="button">Add</button>
+    </div>
+
+    <ul id="myUL"></ul>
+
+	
+</body>
+</html>
